@@ -26,7 +26,8 @@ html, body {
   vertical-align: middle;
 }
 .text-vcenter h1 {
-  font-size: 4.5em;
+  font-family: Tangerine;
+  font-size: 100px;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -4159,6 +4160,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a > img {
   max-width: none;
 }
+.navbar-header a {
+  font-family: Tangerine;
+  font-size: 40px;
+}
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
@@ -4421,6 +4426,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+}
+.navbar-brand a {
+  font-family: Tangerine;
+  font-size: 28px;  
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
