@@ -5,6 +5,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /* general styles */
+
 html, body {
   height: 100%;
   width: 100%;
@@ -15,7 +16,7 @@ html, body {
   padding: 50px 0;
 }
 .pad-section img {
-  width: 100%;
+  width: 45%;
 }
 
 /* vertical-centered text */
@@ -44,6 +45,10 @@ html, body {
   background-size: cover;
 }
 
+#home .btn {
+  margin: 10px 0;
+}
+
 #about {
 }
 
@@ -64,10 +69,11 @@ html, body {
 }
 
 #information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  background: url(../img/info.jpg) no-repeat center center fixed; 
   display: table;
   height: 800px;
   position: relative;
+  text-align: justify;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -75,7 +81,7 @@ html, body {
   background-size: cover;
 }
 #information .panel {
-  opacity: 0.85;
+  opacity: 0.70;
 }
 
 #google_map {
