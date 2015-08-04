@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<title>Guerre et Chevalerie</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="../css/bootstrap-theme.css">
-	<link rel="stylesheet" href="../css/bootstrap.css">
-	<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-
-	<?php include ('header.php') ?>
+	<?php include('includes/header.inc.php') ?>
 
 	<!-- first section - Home -->
 	<div id="home" class="home">
